@@ -20,7 +20,7 @@ print(s1.marks)
 s1.hello()
 
 s2=Student("akshayani",99,"ak")
-print(Student.school) #class attributes can be print using class name
+print(Student.school) #class.attributes can be print using class name
 print(s2.name)
 print(s2.marks)
 print(s2.short)
