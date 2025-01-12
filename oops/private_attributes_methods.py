@@ -7,8 +7,6 @@ class Account:
     def resetpass(self):
         print(self.__acc_pass)
 
-    
-
 acc1=Account(280601501074,"suman100")
 print(acc1.acc_no)
 ##print(acc1.__acc_pass)
