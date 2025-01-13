@@ -11,7 +11,7 @@ print(3**2) #we can use ** to find power
 print(math.floor(3.8)) 
 print(math.ceil(2.3))
 print(math.factorial(5))
-print(math.pi)
+print(math.pi) # directly gives pi val
 
 #swap 2 variables 
 a=1

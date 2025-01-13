@@ -9,7 +9,7 @@ class Student:
 s1=Student("suman",97)
 print(s1)
 print(s1.name)
-del s1.name
-print(s1)
-del s1
+del s1.name #we can delete attibutes of any object
+print(s1) 
+del s1 #and we can delete any object.
 print(s1.marks)

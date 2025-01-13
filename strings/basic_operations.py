@@ -19,11 +19,13 @@ str="akshayani"
 print(str[0])
 
 #slicing
-# str[starting_index:ending_index]// ending index not included
+# str[starting_index:ending_index:step]// ending index not included
 newstr=str[0:2]
 print(newstr) # 0 to 8 index values, last one 9
 print(str[0:]) #staring to ending
 print(str[:9]) #staring to ending str[:len(str)]
+name="suman"[::-1]
+print(name,"here i have reversed the str or number")
 
 #negative index
 s="suman"

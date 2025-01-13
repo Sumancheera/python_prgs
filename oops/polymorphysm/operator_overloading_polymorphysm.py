@@ -29,3 +29,16 @@ num3.shownum()
 num4=num2-num1
 num4.shownum()
 
+# Python program to show use of
+# + operator for different purposes.
+
+print(1 + 2)
+
+# concatenate two strings
+print("Geeks"+"For") 
+
+# Product two numbers
+print(3 * 4)
+
+# Repeat the String
+print("Geeks"*4)
