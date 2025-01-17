@@ -7,9 +7,9 @@ for i in range(4):
         print("# ",end="")
 
     print() #for next line
-####
-###
-##
+# # # #
+# # #
+# #
 #
 print("then 2nd pattern")
 for i in range(4):
@@ -27,3 +27,6 @@ for i in range(4):
         print("# ",end="")
 
     print()
+if 1!=6//1:
+    print(6//1)
+    
