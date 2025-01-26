@@ -1,4 +1,4 @@
-from array import *
+from array import *  #imports are libraries and , pip installs are packages.
 arr=array('i',[]) #empty array
 n=int(input("enter the len:"))
 for i in range(n):

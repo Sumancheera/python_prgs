@@ -29,3 +29,4 @@ def outer_function():
             print(count) 
         inner_function() 
 #In this example, the count variable is considered nonlocal within the inner_function, allowing it to modify the count defined in the outer_function.
+
