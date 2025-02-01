@@ -11,6 +11,8 @@ print(a!=b) #>=, <=,<,>
 
 #asigment operators
 num=10
+n1,n2=4,5
+print(n1,n2)
 num+=10 #num=num+10
 
 #num-=10, num/=10
@@ -29,3 +31,13 @@ print("or operator",val1 or val2) # || or symbol
 print("or operator",a==b or a>b)
 print("or operator",(a==b) or a>b)
 print("or operator",(a==b) or (a>b))
+
+#unary operators
+n=9
+n=-n
+print(n)
+
+#bitwise operators
+#&,|,^,~,<<,>>
+
+

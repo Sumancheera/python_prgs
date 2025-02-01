@@ -29,3 +29,7 @@ set1={1,2,3}
 set2={2,3,4}
 print(set1.union(set2)) #it just forms the commom val not do changes in the origial set1, set2
 print(set1.intersection(set2)) 
+
+#Yes, a set in Python is mutable. This means you can add or remove elements from it after it is created.
+#However, there's a catch: While the set itself can be modified, the elements within the set must be of an immutable type. 
+# This means you cannot add lists or dictionaries to a set, but you can add strings, numbers, or tuples.

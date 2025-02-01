@@ -9,6 +9,7 @@ Dict={
     0:True,
     1:False
     }
+print(Dict.get(3,'not found'))   #imp syntax
 print(type(Dict))
 Dict["name"]="suman" # changing values
 print(Dict["marks"]) #printing values using key name.
