@@ -58,5 +58,3 @@ print(intro[25]) #1st index val
 #str.count("am") #counts the occurence of the substring or char
 print(intro.count("am"))
 print(intro.count("a"))
-
-
