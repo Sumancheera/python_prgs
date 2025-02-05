@@ -11,3 +11,6 @@ print(type(x))
 print(x)
 
 #if you use split, end output will be stored in list. #list
+str="i am also fine ak"
+x=str.split() # defoult space, and all
+print(x)

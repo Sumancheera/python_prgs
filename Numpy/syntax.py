@@ -29,7 +29,7 @@ print(logspace_array)
 
 
 #arr=zeros(size/no of elements,optional(int/float)) # it will give all zeros
-zeros_array=zeros(7)
+zeros_array=zeros(7) # [0. 0. 0. 0. 0. 0. 0.] #(7,int/float)
 print(zeros_array) 
 
 #ones

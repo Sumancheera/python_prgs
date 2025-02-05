@@ -34,4 +34,3 @@ c=[7,8,9]
 res=[(x,y,z) for x,y,z in zip(a,b,c)]
 print(res)
 
-#using enumerate()
