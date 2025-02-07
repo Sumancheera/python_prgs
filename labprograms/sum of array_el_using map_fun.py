@@ -3,15 +3,17 @@
 # #arr=list(map(int,input().split())) if nothing is mentioned in the split by defoult you can give - space- it will take as separeate item
 # print(arr)
 
+# def sumofarray(n,arr1):
+#     sum=0
+#     for i in arr1:
+#         #if i%2!=0:   # for odd num
+#             sum=sum+i   
+#     return sum
 
-def sumofarray(n,arr1):
-    sum=0
-    for i in arr1:
-        if i%2!=0:   # for odd num
-            sum=sum+i   
-    return sum
-
+from functools import*
 n=int(input("enter num of numbers you need"))
 arr1=list(map(int,input("enter num and space, enter num space:").split()))
-print(sumofarray(n,arr1))
-print(arr1)
+fun=reduce(lambda x,y:x+y,arr1)
+#print(sumofarray(n,arr1))
+#arr2=int(fun)
+print(fun)

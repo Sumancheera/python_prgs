@@ -1,5 +1,5 @@
-input("enter your name:") #"77" or "99.9"
-print("you entered :",input)
+a=input("enter your name:") #"77" or "99.9"
+print("you entered :",a)
 #then
 val=str(input("enter your name:")) # anything takes as str so wast of using str, it use use in int float
 print("you entered :",val)

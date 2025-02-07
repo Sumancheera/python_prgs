@@ -35,8 +35,9 @@ print(list(b))
 # The reduce() function belongs to the functools module. 
 from functools import  reduce
 a=[1,2,3,4,5,6,7,8,9,10]
-b=reduce(lambda x,y:x+  y,a)
+b=reduce(lambda x,y:x+y,a)
 #b object is int,  we can directly print
 print(b) 
+print(type(a))
 
 # https://www.geeksforgeeks.org/python-map-function/
