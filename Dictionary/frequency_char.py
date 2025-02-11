@@ -18,3 +18,7 @@ for i in range(len(freq)): #0;1;2;3;4;5;6
     print(max_c)
     freq[max_char] = 0
 print(freq)
+
+
+
+
