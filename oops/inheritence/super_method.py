@@ -23,7 +23,7 @@ class Fortuner(Toyotacar):                  #child class
 
 car1=Fortuner("diesel","toyota","suv")
 print(car1.type)
-print(car1.brand) # we cant acces other constructor object attributes
+print(car1.brand) # we cant acces other vs object attributes
 car1.start()
 print(car1.colour)
 print(car1.manufacturer)

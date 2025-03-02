@@ -52,4 +52,15 @@ print(Dict["city"])
 
 print(Dict.items())
 
+#wap input 3 std marks as val and subj names as keys
+dict={}
+x=int(input("enter math marks:"))
+dict.update({"math":x})
+
+x=int(input("enter physics marks:"))
+dict.update({"physics":x})
+
+x=int(input("enter chemistry marks:"))
+dict.update({"chem":x})
+print(dict)
 

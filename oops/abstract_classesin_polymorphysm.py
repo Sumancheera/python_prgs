@@ -3,10 +3,7 @@
 # They cannot be instantiated themselves and require subclasses to provide implementations for their abstract methods. 
 # ABCs ensure that derived classes adhere to a specific protocol, thus supporting polymorphism.
 
-
 #Example:
-
-
 from abc import ABC, abstractmethod
 
 class Animal(ABC):
