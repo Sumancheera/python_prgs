@@ -18,8 +18,8 @@ class Dog(ABC):
     def sound(self):
         pass #abstract method, at least one should have
 
-    def display_names(self,): #concrete method
-        print(f"dogs name:{self.name}")
+    # def display_names(self,): #concrete method
+    #     print(f"dogs name:{self.name}")
 
 class Labrador(Dog):
     def sound(self):
