@@ -2,21 +2,21 @@
 class Person:
     name="anonymous"
 
-    # def changename(self,name):
-    #     #self.name=name
-    #     #Person.name=name #directly changing class attributes
-    #     self.__class__.name=name  #directly changing class attributes
+    #def changename(self,name):
+    #    #self.name=name
+    #Person.name=name #directly changing class attributes
+    #self.__class__.name=name  #directly changing class attributes
     @classmethod    
     def changename(cls,name):   #cls= Person(class) like self
         cls.name=name
 
-p1=Person() #we can not pass here because fun will tale cls not self
+p1=Person() #we can not pass here because fun will take cls not self
 p1.changename("suman") 
 print(p1.name,"a")
 print(Person.name,"b")
 
 # 1) static method- we cant use or change instance or class methods or attributes
-# 2) class methods(class) - if we want to change class attributes
+# 2) class methods(cllass) - if we want to change class attributes
 # 3) instance methods(self) - if we need to change object attributes
 
 
