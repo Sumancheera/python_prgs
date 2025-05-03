@@ -66,8 +66,17 @@ def hightoftree(root):
     righthight=hightoftree(root.right)
     return max(lefthight,righthight)+1
 
+def Diameter1(root):
+    if root==None:
+        return 0
+    diam1=Diameter1(root.left) #3
+    diam2=Diameter1(root.right) #1
+    diam3=hightoftree(root.left)+hightoftree(root.right)+1 #2+1+1=4
+
+    return max(diam1,diam2,diam3) #4
+
 # Function to insert a new node in the binary tree
-def insert(root, key):
+def insert(root, key):      
     if root is None:
         return Node(key)
     # Create a queue for level order traversal
@@ -115,4 +124,6 @@ if __name__ == "__main__":
     hight=hightoftree(root)
     print("hight of nodes is:")
     print(hight)
+    Diameter=Diameter1(root)
+    print("Diameter of a tree is:",Diameter)
     
