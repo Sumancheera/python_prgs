@@ -105,7 +105,9 @@ if __name__ == "__main__":
     root.right=Node(4)
     root.left.left=Node(5)
 
-    root = insert(root, 6)  #insert code
+    nodes=[6,7,8,9,10,11] # adding 6 to 10.
+    for i in nodes:
+        root = insert(root, i)  #insert code
 
     print("In-order DFS: ", end='')
     in_order_dfs(root)
