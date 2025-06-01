@@ -34,4 +34,7 @@ Q1.insertAtEnd(2)
 Q1.insertAtEnd(3)
 Q1.insertAtEnd(4)
 
-Q1.printll()
+Q1.printll() # to print
+print("after removing")
+Q1.remove_first_node()
+Q1.printll() # to print
