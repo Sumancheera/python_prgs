@@ -74,12 +74,12 @@ class BST:
             self.printinrange(root.left,x,y) #8.left(5);6.left(5.5);7.left(none);10.left(9);9.left(none);9.5.left(none)
             print(root.data,end=" ") #6,7,8,9,10,9.5
             self.printinrange(root.right,x,y)#6.right(7);7.right(none);8.right(10);9.right(none);10.right(11);9.5.right(none)
-        elif root.data<x: #5<6;5.5<6;  5.2<6;3<6
-            self.printinrange(root.right,x,y) #5.right(6);5.5.right(none);  5.2.right(none);3.right(none)
+        elif root.data<x: #5<6;5.5<6;  
+            self.printinrange(root.right,x,y) #5.right(6);5.5.right(none);  
         else:
             self.printinrange(root.left,x,y)#11.left(9.5);   
     def print_range(self,x,y): # utility fun for printin range
-        return self.printinrange(self.root,x,y)
+        return self.printinrange(self.root,x,y) 
     def printpath(self,root,list):
         if root is None:
             return
