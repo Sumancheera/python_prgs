@@ -1,4 +1,5 @@
 from collections import defaultdict
+from collections import deque
 class graph:
     def __init__(self,directed):
         self.adj=defaultdict(list)
@@ -65,7 +66,7 @@ class graph:
         else:
             print(f"edge {v} -> {u} not found (for directed)")
 
-my_graph=graph(True)
+my_graph=graph(False)
 my_graph.add_edge(0,1,10)
 my_graph.add_edge(2,0,20)
 my_graph.add_edge(1,3,20)
